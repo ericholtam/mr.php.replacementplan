@@ -86,7 +86,7 @@ new department_model;
                             column: 'MountPoint',
                             value: '/'
                         }
-                  
+                    ];
                 }
             },
             dom: mr.dt.buttonDom,
