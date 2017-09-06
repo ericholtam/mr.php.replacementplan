@@ -78,6 +78,14 @@ new department_model;
                         var search = d.search.value.split('.').map(function(x){return ('0'+x).slice(-2)}).join('');
                         d.search.value = search;
                     }
+                    
+                    // Only search on bootvolume
+                    d.where = [
+                        {
+                            table: 'diskreport',
+                            column: 'MountPoint',
+                            value: '/'
+                        }
                   
                 }
             },
