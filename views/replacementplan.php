@@ -32,6 +32,7 @@ new department_model;
 			<th data-i18n="serial" data-colname='reportdata.serial_number'>Serial</th>
 			<th data-i18n="disk_report.media_type" data-colname='diskreport.VolumeType'>Media Type</th>
 		    <th data-i18n="disk_report.mountpoint" data-colname='diskreport.MountPoint'>Mount Point</th>
+			<th data-i18n="warranty.est_manufacture_date" data-colname='warranty.est_purchase_date'></th>
 		  </tr>
 		</thead>
 
