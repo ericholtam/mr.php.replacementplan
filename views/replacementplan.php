@@ -30,7 +30,7 @@ new department_model;
 			<th data-i18n="listing.department.department" data-colname='department.department'>Department</th>
 			<th data-colname='reportdata.timestamp'>Check-in</th>
 			<th data-i18n="serial" data-colname='reportdata.serial_number'>Serial</th>
-			<th data-i18n="disk_report.media_type" data-colname='diskreport.VolumeType'>Media Type</th>
+			<th data-i18n="disk_report.media_type" data-colname='diskreport.media_type'>Media Type</th>
 		    <th data-i18n="disk_report.mountpoint" data-colname='diskreport.MountPoint'>Mount Point</th>
 			<th data-i18n="warranty.est_manufacture_date" data-colname='warranty.purchase_date'></th>
 		  </tr>
