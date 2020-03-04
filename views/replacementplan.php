@@ -66,7 +66,7 @@ new department_model;
 		var columnDefs = [], //Column Definitions
             col = 0; // Column counter
 		$('.table th').map(function(){
-            columnDefs.push({name: $(this).data('colname'), targets: col});
+            columnDefs.push({name: $(this).data('colname'), targets: col, render: $.fn.dataTable.render.text()});
             col++;
 		});
 		var oTable = $('.table').dataTable( {
