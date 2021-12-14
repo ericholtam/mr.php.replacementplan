@@ -22,7 +22,7 @@ new department_model;
 		<thead>
 		  <tr>
 			<th data-i18n="listing.username" data-colname='reportdata.console_user'>Username</th>
-		  	<th data-i18n="listing.computername" data-colname='machine.computer_name'>Machine Name</th>
+			<th data-i18n="listing.computername" data-colname='machine.computer_name'>Machine Name</th>
 			<th data-i18n="listing.machine_model" data-colname='machine.machine_model'>Gestalt</th>
 			<th data-i18n="listing.machine_desc" data-colname='machine.machine_desc'>Human Name</th>
 			<th data-colname='machine.os_version'>OS</th>
@@ -31,8 +31,12 @@ new department_model;
 			<th data-colname='reportdata.timestamp'>Check-in</th>
 			<th data-i18n="serial" data-colname='reportdata.serial_number'>Serial</th>
 			<th data-i18n="disk_report.media_type" data-colname='diskreport.media_type'>Media Type</th>
-		    <th data-i18n="disk_report.mountpoint" data-colname='diskreport.MountPoint'>Mount Point</th>
+			<th data-i18n="disk_report.mountpoint" data-colname='diskreport.MountPoint'>Mount Point</th>
 			<th data-i18n="warranty.est_manufacture_date" data-colname='warranty.purchase_date'></th>
+			<th data-colname='machine.buildversion'>OS Build</th>
+			<th data-colname='machine.cpu'>CPU Type</th>
+			<th data-colname='machine.current_processor_speed'>CPU Speed</th>
+			<th data-colname='machine.cpu_arch'>CPU Architecture</th>
 		  </tr>
 		</thead>
 
